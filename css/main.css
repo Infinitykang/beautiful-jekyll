@@ -193,6 +193,13 @@ img {
   display: none;
 }
 
+@media only screen and (max-width: 767px) {
+  .container-fluid  {
+    padding-left: max(15px, env(safe-area-inset-left));
+    padding-right: max(15px, env(safe-area-inset-right));
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-custom .avatar-container {
     width: 100px;
@@ -208,11 +215,6 @@ img {
 
   .navbar-custom .avatar-container  .avatar-img {
     width: 100%;
-  }
-
-  .container-fluid  {
-    padding-left: max(15px, env(safe-area-inset-left));
-    padding-right: max(15px, env(safe-area-inset-right));
   }
 }
 
