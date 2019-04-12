@@ -32,6 +32,11 @@
       &nbsp;&bull;&nbsp;
       <a href="{{ site.url }}">{{ site.url-pretty }}</a>
       {% endif %}
+        
+      {% if site.mailto %}
+      &nbsp;&bull;&nbsp;
+      <a href="mailto:{{ site.mailto }}">{{ site.mailto }}</a>
+      {% endif %}
 
       {% if site.matomo %}
         {% if site.matomo.opt-out %}
