@@ -1,5 +1,9 @@
 # --- General options --- #
 
+# Locale 
+locale: "ko-KR"
+search: true
+
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
